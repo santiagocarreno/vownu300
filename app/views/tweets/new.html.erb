@@ -1,0 +1,32 @@
+<!--<div id ="botonformulariotweet">
+<p>
+  <%= form_for :tweet, url: tweets_path, method: :post do |f| %>
+    <%= f.text_field :message %>
+    <%= f.submit "Send Tweet" %>
+  <% end %>
+</p>
+<div>-->
+
+
+   
+
+   <section id="features" class="features section">
+        <div class="container text-center">
+            <h2 class="title">Features</h2>
+<p id="dani">
+  <%= form_for :tweet, url: tweets_path, method: :post do |f| %>
+    <%= f.text_area :message %>
+     <div class="field">
+    <%= f.label :fundación %><br>
+    <%= select_tag :fundacion, options_from_collection_for_select(User.where(is_foundation: 'true'), 'id', 'name')%>
+  </div>
+    <%= f.submit "Send Tweet" %>
+  <% end %>
+</p>            
+
+
+
+
+        </div><!--//container-->
+    </section><!--//features-->
+

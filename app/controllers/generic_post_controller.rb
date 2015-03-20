@@ -1,0 +1,3 @@
+class GenericPostController < ApplicationController
+	
+end
