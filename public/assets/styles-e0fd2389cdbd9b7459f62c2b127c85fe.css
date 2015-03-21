@@ -1,0 +1,871 @@
+/*   
+ * Template Name: devAid - Responsive Website Template for developers
+ * Version: 1.0
+ * Author: Xiaoying Riley at 3rd Wave Media
+ * Website: http://themes.3rdwavemedia.com/
+ * Twitter: @3rdwave_themes
+*/
+/* Default */
+/* ======= Base ======= */
+/* line 11, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+body {
+  font-family: 'Lato', arial, sans-serif;
+  color: #444444;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 18, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #17baef;
+}
+
+/* line 28, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+a {
+  color: #17baef;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+}
+
+/* line 35, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+a:hover {
+  text-decoration: underline;
+  color: #0e98c5;
+}
+
+/* line 39, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.btn,
+a.btn {
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  font-family: 'Montserrat', arial, sans-serif;
+  padding: 8px 16px;
+  font-weight: bold;
+}
+
+/* line 49, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.btn .fa,
+a.btn .fa {
+  margin-right: 5px;
+}
+
+/* line 53, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.btn:focus,
+a.btn:focus {
+  color: #fff;
+}
+
+/* line 57, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+a.btn-cta-primary,
+.btn-cta-primary {
+  background: #074f66;
+  border: 1px solid #074f66;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* line 65, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+a.btn-cta-primary:hover,
+.btn-cta-primary:hover {
+  background: #053c4e;
+  border: 1px solid #053c4e;
+  color: #fff;
+}
+
+/* line 71, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+a.btn-cta-secondary,
+.btn-cta-secondary {
+  background: #eebf3f;
+  border: 1px solid #eebf3f;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* line 79, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+a.btn-cta-secondary:hover,
+.btn-cta-secondary:hover {
+  background: #ecb728;
+  border: 1px solid #ecb728;
+  color: #fff;
+}
+
+/* line 85, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.text-highlight {
+  color: #074f66;
+}
+
+/* line 88, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.offset-header {
+  padding-top: 90px;
+}
+
+/* line 91, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+pre code {
+  font-size: 16px;
+}
+
+/* ======= Header ======= */
+/* line 95, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.header {
+  padding: 10px 0;
+  background: #000;
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  font-family: 'Tangerine', sans-serif;
+}
+
+/* line 105, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.header.navbar-fixed-top {
+  background: #fff;
+  z-index: 9999;
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+}
+
+/* line 112, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.header.navbar-fixed-top .logo a {
+  color: #17baef;
+}
+
+/* line 115, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.header.navbar-fixed-top .main-nav .nav .nav-item a {
+  color: #666666;
+}
+
+/* line 118, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.header .logo {
+  margin: 0;
+  font-size: 26px;
+  padding-top: 10px;
+}
+
+/* line 123, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.header .logo a {
+  color: #000;
+}
+
+/* line 126, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.header .logo a:hover {
+  text-decoration: none;
+}
+
+/* line 129, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.header .main-nav button {
+  background: #000000;
+  /*background: #074f66;*/
+  color: #fff !important;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+
+/* line 142, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.header .main-nav button:focus {
+  outline: none;
+}
+
+/* line 145, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.header .main-nav button .icon-bar {
+  background-color: #fff;
+}
+
+/* line 148, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.header .main-nav .navbar-collapse {
+  padding: 0;
+}
+
+/* line 151, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.header .main-nav .nav .nav-item {
+  font-weight: normal;
+  margin-right: 30px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* line 156, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.header .main-nav .nav .nav-item.active a {
+  color: #000;
+  /*color: #17baef;*/
+  background: none;
+}
+
+/* line 161, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.header .main-nav .nav .nav-item a {
+  color: #ffffff;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+  font-size: 22px;
+  padding: 15px 10px;
+}
+
+/* line 170, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.header .main-nav .nav .nav-item a:hover {
+  color: #074f66;
+  background: none;
+}
+
+/* line 174, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.header .main-nav .nav .nav-item a:focus {
+  outline: none;
+  background: none;
+}
+
+/* line 178, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.header .main-nav .nav .nav-item a:active {
+  outline: none;
+  background: none;
+}
+
+/* line 182, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.header .main-nav .nav .nav-item.active {
+  color: #17baef;
+}
+
+/* line 185, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.header .main-nav .nav .nav-item.last {
+  margin-right: 0;
+}
+
+/* ========Nosotras ========== */
+/* line 191, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+#osotras {
+  background: #000;
+  height: 915px;
+}
+
+/* ======== ========== */
+/* ======= Promo Section ======= */
+/* line 205, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.promo {
+  background: #17baef;
+  /*Caja que contiente el primer slide/vista del landing page */
+  background-image: url("http://fullhdwp.com/images/wallpapers/green_pokemon_Wallpaper.jpg");
+  background-image: no-repeat;
+  color: #fff;
+  padding-top: 450px;
+  height: 980px;
+}
+
+/* line 214, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.promo .title {
+  font-size: 98px;
+  color: #074f66;
+  margin-top: 0;
+}
+
+/* line 219, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.promo .title .highlight {
+  color: #eebf3f;
+}
+
+/* line 222, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.promo .intro {
+  font-size: 28px;
+  max-width: 680px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+/* line 228, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.promo .btns .btn {
+  margin-right: 15px;
+  font-size: 18px;
+  padding: 8px 30px;
+}
+
+/* line 233, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.promo .meta {
+  margin-top: 120px;
+  margin-bottom: 30px;
+  color: #0a7396;
+}
+
+/* line 238, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.promo .meta li {
+  margin-right: 15px;
+}
+
+/* line 241, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.promo .meta a {
+  color: #0a7396;
+}
+
+/* line 244, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.promo .meta a:hover {
+  color: #074f66;
+}
+
+/* line 247, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.promo .social-media {
+  background: #0c86ae;
+  padding: 10px 0;
+  margin: 0 auto;
+}
+
+/* line 252, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.promo .social-media li {
+  margin-top: 15px;
+}
+
+/* line 255, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.promo .social-media li.facebook-like {
+  margin-top: 0;
+  position: relative;
+  top: -5px;
+}
+
+/* ======= About Section ======= */
+/* line 264, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.about {
+  padding: 80px 0;
+  background: #fff;
+  height: 980px;
+  /*background: #f5f5f5;*/
+}
+
+/* line 271, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.about .title {
+  color: #074f66;
+  margin-top: 0;
+  margin-bottom: 60px;
+}
+
+/* line 276, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.about .intro {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+/* line 281, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.about .item {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+/* line 285, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.about .item .icon-holder {
+  position: absolute;
+  left: 30px;
+  top: 0;
+}
+
+/* line 290, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.about .item .icon-holder .fa {
+  font-size: 24px;
+  color: #074f66;
+}
+
+/* line 294, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.about .item .content {
+  padding-left: 60px;
+}
+
+/* line 297, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.about .item .content .sub-title {
+  margin-top: 0;
+  color: #074f66;
+  font-size: 18px;
+}
+
+/* ======= Features Section ======= */
+/* line 303, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.features {
+  padding: 80px 0;
+  background: #17baef;
+  color: #000;
+}
+
+/* line 308, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.features .title {
+  color: #074f66;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+/* line 313, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.features a {
+  color: #074f66;
+}
+
+/* line 316, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.features a:hover {
+  color: #042a36;
+}
+
+/* line 319, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.features .feature-list li {
+  margin-bottom: 10px;
+  color: #074f66;
+}
+
+/* line 323, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.features .feature-list li .fa {
+  margin-right: 5px;
+  color: #000;
+}
+
+/* ======= Docs Section ======= */
+/* line 330, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.docs {
+  padding: 80px 0;
+  background: #f5f5f5;
+}
+
+/* line 334, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.docs .title {
+  color: #074f66;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+/* line 339, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.docs .docs-inner {
+  max-width: 800px;
+  background: #fff;
+  padding: 30px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  margin: 0 auto;
+}
+
+/* line 353, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.docs .block {
+  margin-bottom: 60px;
+}
+
+/* line 356, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.docs .code-block {
+  margin: 30px inherit;
+}
+
+/* line 359, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.docs .code-block pre[class*="language-"] {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+
+/* ======= License Section ======= */
+/* line 370, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.license {
+  padding: 80px 0;
+  background: #f5f5f5;
+}
+
+/* line 374, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.license .title {
+  margin-top: 0;
+  margin-bottom: 60px;
+  color: #074f66;
+}
+
+/* line 379, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.license .license-inner {
+  max-width: 800px;
+  background: #fff;
+  padding: 30px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  margin: 0 auto;
+}
+
+/* line 393, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.license .info {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+/* line 397, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.license .cta-container {
+  max-width: 540px;
+  margin: 0 auto;
+  margin-top: 60px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+
+/* line 410, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.license .cta-container .speech-bubble {
+  background: #d6f3fc;
+  color: #074f66;
+  padding: 30px;
+  margin-bottom: 30px;
+  position: relative;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+
+/* line 425, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.license .cta-container .speech-bubble:after {
+  position: absolute;
+  left: 50%;
+  bottom: -10px;
+  margin-left: -10px;
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #d6f3fc;
+}
+
+/* line 438, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.license .cta-container .icon-holder {
+  margin-bottom: 15px;
+}
+
+/* line 441, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.license .cta-container .icon-holder .fa {
+  font-size: 56px;
+}
+
+/* line 444, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.license .cta-container .intro {
+  margin-bottom: 30px;
+}
+
+/* ======= Contact Section ======= */
+/* line 448, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.contact {
+  padding: 80px 0;
+  background: #17baef;
+  color: #fff;
+}
+
+/* line 453, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.contact .contact-inner {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+/* line 457, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.contact .title {
+  color: #074f66;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+/* line 462, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.contact .intro {
+  margin-bottom: 60px;
+}
+
+/* line 465, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.contact a {
+  color: #074f66;
+}
+
+/* line 468, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.contact a:hover {
+  color: #042a36;
+}
+
+/* line 471, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.contact .author-message {
+  position: relative;
+  margin-bottom: 60px;
+}
+
+/* line 475, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.contact .author-message .profile {
+  position: absolute;
+  left: 30px;
+  top: 15px;
+  width: 100px;
+  height: 100px;
+}
+
+/* line 482, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.contact .author-message .profile img {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+
+/* line 492, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.contact .author-message .speech-bubble {
+  margin-left: 155px;
+  background: #10b2e7;
+  color: #074f66;
+  padding: 30px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  position: relative;
+}
+
+/* line 507, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.contact .author-message .speech-bubble .sub-title {
+  color: #074f66;
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+/* line 513, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.contact .author-message .speech-bubble a {
+  color: #fff;
+}
+
+/* line 516, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.contact .author-message .speech-bubble:after {
+  position: absolute;
+  left: -10px;
+  top: 60px;
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid #10b2e7;
+}
+
+/* line 528, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.contact .author-message .speech-bubble .source {
+  margin-top: 30px;
+}
+
+/* line 531, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.contact .author-message .speech-bubble .source a {
+  color: #074f66;
+}
+
+/* line 534, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.contact .author-message .speech-bubble .source .title {
+  color: #0c86ae;
+}
+
+/* line 537, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.contact .info .sub-title {
+  color: #0e98c5;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+
+/* line 542, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.contact .social-icons {
+  list-style: none;
+  padding: 10px 0;
+  margin-bottom: 0;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+/* line 549, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.contact .social-icons li {
+  float: left;
+}
+
+/* line 552, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.contact .social-icons li.last {
+  margin-right: 0;
+}
+
+/* line 555, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.contact .social-icons a {
+  display: inline-block;
+  background: #0c86ae;
+  width: 48px;
+  height: 48px;
+  text-align: center;
+  padding-top: 12px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  margin-right: 8px;
+  float: left;
+}
+
+/* line 573, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.contact .social-icons a:hover {
+  background: #e6ad14;
+}
+
+/* line 576, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.contact .social-icons a .fa {
+  color: #fff;
+}
+
+/* line 579, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.contact .social-icons a .fa:before {
+  font-size: 26px;
+  text-align: center;
+  padding: 0;
+}
+
+/* ======= Footer ======= */
+/* line 585, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.footer {
+  padding: 15px 0;
+  background: #042a36;
+  color: #fff;
+}
+
+/* line 590, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.footer .copyright {
+  -webkit-opacity: 0.8;
+  -moz-opacity: 0.8;
+  opacity: 0.8;
+}
+
+/* line 595, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+.footer .fa-heart {
+  color: #fb866a;
+}
+
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 767px) {
+  /* line 600, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+  .header .main-nav button {
+    margin-right: 0;
+  }
+
+  /* line 603, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+  .header .main-nav .navbar-collapse {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  /* line 607, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+  .promo .btns .btn {
+    margin-right: 0;
+    clear: both;
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  /* line 613, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+  .promo .title {
+    font-size: 66px;
+  }
+
+  /* line 616, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+  .promo .meta {
+    margin-top: 60px;
+  }
+
+  /* line 619, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+  .promo .meta li {
+    float: none;
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  /* line 624, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+  .contact .author-message {
+    text-align: center;
+  }
+
+  /* line 627, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+  .contact .author-message .profile {
+    position: static;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+
+  /* line 632, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+  .contact .author-message .speech-bubble {
+    margin-left: 0;
+  }
+
+  /* line 635, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+  .contact .author-message .speech-bubble:after {
+    display: none;
+  }
+
+  /* line 638, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+  .contact .social-icons a {
+    width: 36px;
+    height: 36px;
+    padding-top: 7px;
+    margin-right: 2px;
+  }
+
+  /* line 644, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+  .contact .social-icons a .fa:before {
+    font-size: 18px;
+  }
+
+  /* line 648, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+  #botonformulariotweet {
+    left: 50%;
+    top: 40%;
+  }
+
+  /* line 654, /Users/santiagocarreno/Santiago/Alchemy/vownu-danipotter2/vownu-danipotter/app/assets/stylesheets/styles.scss */
+  #dani {
+    font-color: 000000;
+  }
+}
+/* Small devices (tablets, 768px and up) */
+/* Medium devices (desktops, 992px and up) */
+/* Large devices (large desktops, 1200px and up) */
