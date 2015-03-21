@@ -93,12 +93,11 @@ pre code {
 /* ======= Header ======= */
 .header {
   padding: 10px 0;
-  /*background: #17baef;*/
-  background-image: url("fondoprincipal.jpg");
+  background: #000;
   color: #fff;
   position: fixed;
   width: 100%;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Tangerine', sans-serif;
 
 
 }
@@ -121,13 +120,14 @@ pre code {
   padding-top: 10px;
 }
 .header .logo a {
-  color: #fff;
+  color: #000;
 }
 .header .logo a:hover {
   text-decoration: none;
 }
 .header .main-nav button {
-  background: #074f66;
+  background: #000000;
+  /*background: #074f66;*/
   color: #fff !important;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -153,7 +153,8 @@ pre code {
   font-family: 'Montserrat', sans-serif;
 }
 .header .main-nav .nav .nav-item.active a {
-  color: #17baef;
+  color: #000;
+  /*color: #17baef;*/
   background: none;
 }
 .header .main-nav .nav .nav-item a {
@@ -183,11 +184,28 @@ pre code {
 .header .main-nav .nav .nav-item.last {
   margin-right: 0;
 }
+
+/* ========Nosotras ========== */
+
+#osotras{
+
+  background: #000; 
+  height: 915px;
+
+}
+
+
+/* ======== ========== */
+
+
+
+
 /* ======= Promo Section ======= */
 .promo {
-  /*background: #17baef;*/
+  background: #17baef;
   /*Caja que contiente el primer slide/vista del landing page */
-  background-image: url("http://i724.photobucket.com/albums/ww243/Duckyboy1989/fondogeneral-1_zpsly8nczqr.jpg");
+  background-image: url("http://fullhdwp.com/images/wallpapers/green_pokemon_Wallpaper.jpg");
+  background-image: no-repeat;
   color: #fff;
   padding-top: 150px;
   height: 980px;
@@ -238,10 +256,16 @@ pre code {
   position: relative;
   top: -5px;
 }
+
+
 /* ======= About Section ======= */
+
 .about {
   padding: 80px 0;
-  background: #f5f5f5;
+  background: #fff;
+  height: 980px;
+  /*background: #f5f5f5;*/
+
 }
 .about .title {
   color: #074f66;
